@@ -1,0 +1,16 @@
+.toolMain{
+	width: 100%;
+	margin-top: 100px;
+	padding-bottom:80px ;
+}
+.toolMain a{
+	display: block;
+	width: 100%;
+	padding: 10px;
+}
+.toolMain a img{
+	width: 100%;
+	height: 165.66px;
+	border-radius: 10px;
+	box-shadow: 1px 1px 2px rgba(0,0,0,.2);
+}

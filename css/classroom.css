@@ -1,0 +1,61 @@
+.classroomBox{
+	width: 100%;	
+}
+@keyframes classroom{
+	from{
+		transform: skewX(-45deg) translateX(-9999PX);
+	}
+	80%{
+		transform: skewX(-30deg) translateX(10PX);
+	}
+	to{
+		transform: skewX(0deg) translateX(0);
+	}
+}
+@-webkit-keyframes classroom{
+	from{}
+	to{}
+} classroom{
+	from{
+		transform: skewX(-45deg) translateX(-9999PX);
+	}
+	80%{
+		transform: skewX(-30deg) translateX(10PX);
+	}
+	to{
+		transform: skewX(0deg) translateX(0);
+	}
+}
+.classroomMain{
+	margin-top: 100px;
+	width: 100%;
+	padding-bottom:80px ;
+}
+.classroomMain ul{
+	width: 100%;	
+}
+.classroomMain ul li{
+	padding: 10px;
+	width: 100%;
+	height: 95px;
+	border-bottom: 1px solid #cccccc;
+	animation: classroom 0.5s;
+}
+.classroomMain ul li a{
+	display: block;
+	width: 100%;
+	position: relative;
+	padding-left: 85px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+.classroomMain ul li a .hot-img-l{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.classroomMain ul li a .hot-img-l img{
+	width: 75px;
+	height: 75px;
+	border-radius: 10px;
+	box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}

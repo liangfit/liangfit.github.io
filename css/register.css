@@ -1,0 +1,156 @@
+.register{
+	width: 100%;
+	text-align: center;
+	animation:register 0.5s ;
+}
+@keyframes register{
+	from{
+		transform: translateY(200px);
+	}
+	to{
+		transform: translateY(0px);
+	}
+}
+@-webkit-keyframes register{
+	from{
+		transform: translateY(200px);
+	}
+	to{
+		transform: translateY(0px);
+	}
+}
+.register>.register_header{
+	width: 100%;
+	height: 45px;
+	line-height:44px;	
+	background: #f8f8f7;
+	border-bottom: 1px solid #d6d6d6;
+	font-size: 16px;
+	position: relative;
+	color: #808080;
+}
+.register>.register_header>a{
+	position: absolute;
+	font-size: 20px;
+	font-family: simsun;
+	top: 0;
+	left: 15px;
+}
+.register>form{
+	width: 100%;	
+	line-height: 50px;
+	font-size: 14px;
+	color: #555555;	
+}
+.register>form>ul{
+	width: 100%;	
+}
+.register>form>ul>li{
+	width: 100%;
+	height: 50px;
+	padding-left: 80px;
+	padding-right: 15px;
+	position: relative;
+	text-align: center;
+}
+.register>form>ul>li>span{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 80px;	
+}
+.register>form>ul>li>input{
+	width: 100%;
+	height: 50px;	
+	border-bottom: 1px solid #d6d6d6; 
+	font-size: 13px;
+}
+.register>form>ul>li:last-child{
+	padding:15px 0;	
+	border-top: 1px solid #d6d6d6;
+}
+
+.register>form>ul>li:last-child input{	
+	width: 80%;
+	height: 35px;
+	margin: 0 auto;	
+	border-radius: 3px;
+	box-shadow: 0 1px 3px darkgrey;
+	color: white;
+	background: #ff6964;
+}
+.register>form>ul>li>input[disabled]{
+	background:#CCCCCC ;
+}
+
+.register>p{
+	margin: 20px 0 10px 0;
+}
+.register>a{
+	color:#ff6964;
+}
+
+/*登录*/
+div.loginPage>form>ul>li:last-child{
+	padding:15px 0;	
+	border-top: 1px solid #d6d6d6;
+}
+div.loginPage>span{
+	display: block;
+	margin-top: 20px;
+	font-size: 12px;
+	color:#555555;
+}
+.login_icon{
+	width: 70%;
+	padding: 0 10px;
+	margin: 10px auto;
+	font-size: 12px;
+}
+.login_icon a:first-child{
+	float: left;
+	display: block;
+}
+.login_icon a:last-child{
+	float: right;
+	display: block;
+}
+.login_icon a i{
+	display: block;
+	font-size: 30px;
+	color: #7dd18b;
+}
+.login_icon a:last-child i{
+	color: #74bbf0;
+}
+div.loginPage>a{
+	color: #ff6964;
+}
+.tips{
+	width: 100%;
+	margin-top: 30px;
+}
+.tips>div{
+	width: 60%;		
+	margin:0 auto;
+	background:rgba(0,0,0,.8) ;
+	box-shadow: 0 2px 3px #CCCCCC;
+	color: #FFf;
+	border-radius: 5px;
+	opacity: 0;	
+	animation: move 4s linear forwards;
+}
+@-webkit-keyframes move{
+	0{
+		opacity: 0;
+	}
+	20%{
+		opacity: 1;
+	}
+	80%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+	}
+}

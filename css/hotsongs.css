@@ -1,0 +1,24 @@
+.hotsongs{
+	display: block;
+	animation: opci 0.5s linear;
+}
+@keyframes opci{
+	from{
+		opacity: 0;
+		height: 0;
+	}
+	to{
+		opacity: 1;
+		height: auto;
+	}
+}
+@-webkit-keyframes opci{
+	from{
+		opacity: 0;
+		height: 0;
+	}
+	to{
+		opacity: 1;
+		height: auto;
+	}
+}

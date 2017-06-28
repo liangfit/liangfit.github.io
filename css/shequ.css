@@ -1,0 +1,116 @@
+.sq-header-nav{
+	width: 100%;
+	padding: 0;
+	margin-top: 12px;
+}
+.sq-header-nav ul{
+	width: 100%;
+	position: relative;
+	
+}
+.sq-header-nav ul li{
+	width: 25%;
+	float: left;
+	text-align: center;
+	line-height:40px;
+	font-size: 16px;
+	animation: fei 0.5s;
+}
+@keyframes fei{
+	from{
+		transform:translateX(9999px) ;
+	}	
+	70%{
+		transform:translateX(-10%) ;
+	}
+	to{
+		transform:translateX(0) ;
+	}
+}
+@-webkit-keyframes fei{
+	from{
+		transform:translateX(9999px) ;
+	}	
+	70%{
+		transform:translateX(-10%) ;
+	}
+	to{
+		transform:translateX(0) ;
+	}
+}
+.sq-header-nav ul li span{
+	display: block;
+	color: rgba(0,0,0,0.7);
+}
+
+/*内容开始*/
+.shequMain{
+	margin-top: 100px;
+	padding-bottom:80px ;
+	color: #555555;
+}
+.shequMain ul{
+	
+}
+.shequMain ul li{
+	position: relative;	
+	padding: 10px 10px 10px 90px;
+	border-bottom: 1px solid #cccccc;
+	animation: fei 1s;
+}
+.shequMain ul li .hot-img-l{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+.shequMain ul li .hot-img-l a{		
+	display: block;
+	width: 70px;
+	height: 70px;
+	margin-right:10px ;
+	
+}
+.shequMain ul li .hot-img-l a img{
+	width: 70px;
+	height: 70px;
+	border-radius: 6px;
+}
+
+.comment-r-text{
+	width: 100%;
+}
+.comment-r-text h2{
+	width: 100%;	
+	padding-right: 100px;
+	position: relative;
+	
+}
+.comment-r-text h2 a{
+	display: block;
+	width: 100%;
+	padding-right:1px ;
+	white-space: nowrap;
+	overflow: hidden;
+	font-size: 15px;
+	color:#62759d ;
+	font-family: simsun;
+	
+}
+.comment-r-text h2 span{
+	position: absolute;
+	right: 0;
+	top: 0;
+	color: #9f9fa8;
+	font-family: "bodoni mt";
+}
+.comment-text2{
+	width: 100%;
+}
+.comment-text2 a{
+	width: 100%;
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	color: #555555;
+}
