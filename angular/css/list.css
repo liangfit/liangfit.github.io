@@ -1,0 +1,85 @@
+.list{
+	width: 100%;
+	color: #fff;
+}
+.list header{
+	width: 100%;
+	position: relative;
+	/*border-bottom: 1px solid rgba(0,0,0,0.5);*/
+}
+.list header img{
+	display: block;
+	width: 100%;
+}
+.list header div{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 20px 55px 20px 15px;
+	background: rgba(20,21,25,0.7);
+}
+.list header div h1{
+	font-size: 23px;
+	padding-right: 5px;
+	font-family: simsun;
+	white-space:nowrap; 
+	overflow: hidden;        
+	text-overflow:ellipsis; 
+}
+.list header div p{
+	font-size:15px ;
+	font-weight: bold;	
+}
+.list header div a{
+	position: absolute;
+	right: 15px;
+	bottom: 10px;
+	color: #fff;	
+}
+.list header div a i{
+	font-size: 45px;
+}
+
+/*内容开始*/
+.list main{
+	background: #141519;		
+}
+.list main a{
+	display: block;
+	width: 100%;
+	color: #fff;
+	padding: 10px 0 0 55px;
+	position: relative;
+}
+.list main a span{
+	width: 55px;	
+	position: absolute;
+    top:0;
+    left: 0;
+    text-align: center;
+    line-height: 66px;
+    font-size: 20px;
+}
+.list main a div{
+	width: 100%;
+	background: rgba(20,21,25,0.1);
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+	padding: 0 10px 10px 0;
+	
+}
+.list main a div h3{
+	font-size: 16px;
+	white-space:nowrap; 
+	overflow: hidden;        
+	text-overflow:ellipsis; 
+}
+.list main a div p{
+	font-size: 13px;
+	color: #979797;
+	font-weight: bold;
+	word-spacing: 5px;
+	white-space:nowrap; 
+	overflow: hidden;        
+	text-overflow:ellipsis; 
+}
